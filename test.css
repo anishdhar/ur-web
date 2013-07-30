@@ -1,0 +1,422 @@
+body {
+	background-color:#2a3698;	
+	height:100%;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	padding-bottom:100px;
+}
+label {
+	display:block;
+	font-size:16px;
+}
+
+
+.super:hover
+{
+    
+    	height:110px;
+    	   margin:auto;
+    	   position:fixed;
+
+    }
+textarea {
+	padding:5px;	
+}
+
+input.subtractpoints {
+	color:#ff0000;
+	font-family:"Courier New", Courier, monospace;
+	font-weight:bold;
+	font-size:20px;
+	cursor:pointer;	
+	padding:0px;
+	background-color:#FFFFFF;
+	border:none;
+	display:inline;
+	margin-bottom:10px;
+position:relative;
+	bottom:51px;
+	left:20px;
+
+}
+.sel
+{
+    margin-right:250px;
+    
+    font-size:12px;
+    }
+input.addpoints {
+	color:#66cc33;
+	font-family:"Courier New", Courier, monospace;
+	font-weight:bold;
+	font-size:20px;
+	cursor:pointer;
+	padding:0px;
+	background-color:#FFFFFF;
+	border:none;
+	display:inline;
+position:relative;
+	bottom:30px;
+	right:15px;
+
+
+}
+.tst
+{
+    
+bottom:29px;
+position:relative;
+    
+  }
+.stats {
+	position:fixed;
+	bottom:0;
+	background-color:#ffffff;
+	width:100%;
+	text-align:center;
+	height:110px;
+	display:block;
+	left:0;
+}
+.stats h3 {
+	margin:0;
+	padding:0;	
+}
+.stats h4 {
+	margin:0;
+	padding:0;
+	position:relative;
+	bottom:30px;	
+}
+
+.stats table {
+	margin:auto;
+}
+
+.stats table th {
+	border-bottom:1px solid black;
+	position:relative;
+	bottom:30px
+}
+
+
+.hide {
+	display:none;	
+}
+
+.clear {
+	clear:both;	
+}
+
+.edit {
+	border:2px dashed #cccccc;
+	text-align:center;
+}
+
+.edit:hover, textarea.active {
+	border:2px inset gray;	
+}
+title {
+	text-align:center;
+	font-size:36px;
+	margin:auto;
+	line-height:36px;
+}
+input, textarea, select {
+	display:block;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	margin:auto;
+}
+.quote {
+	background-color:	#DDEEDD;
+	border-style:		outset;
+	padding:		5px;
+	font-size:		large;
+	text-align:center;
+}
+
+.game {
+	width:1000px;	
+	background-color:#000000;
+	padding:0;
+	margin:0;
+	margin:auto;
+	font-size:16px;
+
+
+}
+.game table tbody td {
+	cursor:pointer;
+	height:100px;
+        border:3px solid #2a3698;
+	width:190px;
+}
+.game textarea {
+	width:90%;
+	height:30px;
+	font-size:18px;
+	line-height:22px;
+}
+.game table tbody
+{
+vertical-align: middle;
+	background-color:#2a3698;
+	padding:5px;
+	text-align:center;
+	width:19%;
+	color:#ffff5f;
+	height:60px;
+	font-size:20px;
+
+}
+
+.classname {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:#79bbff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #528ecc;
+}.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+	cursor:pointer;
+
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+
+.game td:hover {
+	
+        border:3px solid #ffff5f;
+}
+
+.game h3 {
+	color:#ffff5f;
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.game a:link, a:visited {
+
+
+	color:#ffff5f;
+	border: none;
+}
+
+.game tbody td {
+	cursor:pointer;
+	height:100px;
+        border:3px solid #2a3698;
+}
+
+.game tfoot td {
+	text-align: center;
+	background-color:#2a3698;
+}
+textarea.title {
+	height:50px;
+	width:90%;
+	color:#012b45;
+}
+
+.simplemodal-overlay {
+	background-color:#000;
+}
+.prompt {
+	height:100%;
+	width:100%;
+	background-color:#2a3698;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+
+
+
+.prompt a:link, .prompt a:visited, .prompt a:hover {
+	color:#fff;
+	font-size:18px;
+	text-decoration:underline;
+}
+
+.prompt a:hover {
+	text-decoration:none;
+}
+
+.game thead th
+{
+
+}
+.options {
+	background-color:#fff;
+	width:500px;
+	padding:10px;
+	margin:auto;
+	margin-top:75px;
+}
+
+.options h1 {
+	color:#2a3698;
+	font-size:22px;
+	text-align:center;
+}
+
+.options label {
+	text-align: center;
+	font-size:14px;
+}
+
+.options select, #options label, #options input {
+	margin-top:5px;
+}
+
+.options select {
+	width:130px;	
+}
+
+.options input {
+	width:100px;	
+}
+.options p {
+	margin-bottom:0px;	
+}
+
+/**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#game tbody td {
+	cursor:pointer;
+	height:100px;
+        border:3px solid #2a3698;
+}
+
+#game tbody td.ie-hack {
+	border:3px solid #ffff5f;
+}
+
+/*#game tbody td.clean:hover {
+	border:3px solid #ffff5f;
+}
+
+#game tbody td.dirty:hover {
+	border:3px solid #2a3698;
+}*/
+/**
+#game tbody td.dirty h3 {
+	color:#2a3698;	
+}
+
+#game tfoot td {
+	text-align: center;
+	background-color:#2a3698;
+}
+
+.submit {
+	margin:auto;
+}
+
+#modal {
+	display: none;
+	background-color:#fff;
+	padding:5px;
+	border:2px dashed #ccc;
+}
+
+#modal {
+	font-size:16px;
+	font-weight:bold;
+}
+
+#modal textarea {
+	width:500px;
+	height:120px;
+	font-size:16px;
+}
+
+#options {
+	background-color:#fff;
+	width:500px;
+	padding:10px;
+	margin:auto;
+	margin-top:75px;
+}
+
+#options h1 {
+	color:#2a3698;
+	font-size:22px;
+	text-align:center;
+}
+
+#options label {
+	text-align: center;
+	font-size:14px;
+}
+
+#options select, #options label, #options input {
+	margin-top:5px;
+}
+
+#options select {
+	width:130px;	
+}
+
+#options input {
+	width:100px;	
+}
+#options p {
+	margin-bottom:0px;	
+}
+
+.tip {
+	float:left;
+}
+
+.links {
+	float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+database test1
+sql test.sql
+rewrite style Urblog/game game	
+rewrite style Urblog/quote quote	
+rewrite style Urblog/hide hide
+rewrite style Urblog/cellclean cellclean
+rewrite style Urblog/stats stats
+rewrite style Urblog/subtractpoints subtractpoints
+rewrite style Urblog/addpoints addpoints
+rewrite style Urblog/prompt prompt
+rewrite style Urblog/options options
+rewrite style Urblog/super super
+rewrite style Urblog/classname classname
+rewrite style Urblog/sel sel
+rewrite style Urblog/tst tst
+allow url http://mit.edu/anishd/www/test.css
+
+$/list
+$/option
+urblog
+
